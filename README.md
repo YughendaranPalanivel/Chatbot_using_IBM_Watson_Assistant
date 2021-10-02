@@ -1,20 +1,11 @@
-# Automatic Number Plate Recognition Using Python and MySQL
+# Chatbot Using IBM Watson Assistant
 
-A Python application that can recognize vehicle numbers from licence plates and store it in a MySQL database.
+In this code pattern, we created a chatbot using React.js, Node.js and Watson Assistant.
 
-## Getting Started
+## Watson Assistant
 
-Make sure python, MySQL and tesseract(an OCR engine) is installed locally in your computer.Then, Pip install openCV for accessing webcam and object detection, pytesseract for Optical Character Recognition and mysql.connector for remote or local DB connection.
-
-A few resources to get you started:
-
-* Python : https://www.python.org/downloads/
-* MySQL : https://www.mysql.com/
-* Tesseract : https://github.com/UB-Mannheim/tesseract/wiki
-* OpenCV : https://opencv.org/
-* pytesseract : https://levelup.gitconnected.com/a-beginners-guide-to-tesseract-ocr-using-pytesseract-23036f5b2211
-* mysql.connector : https://dev.mysql.com/doc/connector-python/en/
+Watson Assistant lets you build conversational interfaces into any application, device, or channel. Add a natural language interface to your application to automate interactions with your end users. Common applications include virtual agents and chat bots that can integrate and communicate on any channel or device.
 
 ## Snapshots
-![snapshot](https://i.ibb.co/BV84GfQ/Capture55.png)
+![snapshot](https://i.ibb.co/qY14dsB/Capture2.png)
 
