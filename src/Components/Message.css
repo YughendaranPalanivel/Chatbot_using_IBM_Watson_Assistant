@@ -1,0 +1,18 @@
+.messageContainer{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+
+.message-box{
+    min-height: 40px;
+    max-width: 225px;
+    padding:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ECECEC;
+    border-radius: 5px;
+    word-break: break-all;
+}
