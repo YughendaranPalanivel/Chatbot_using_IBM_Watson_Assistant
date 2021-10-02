@@ -1,0 +1,89 @@
+.App {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100vw;
+  max-width: 450px;
+  height: calc(100vh - 50px);
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 20px 24px 31px rgba(0, 0, 0, 0.15);
+}
+
+.dashboard{
+  width: 100%;
+  margin-top: 25px;
+  height: calc(100% - 75px);
+  max-height: 100%;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.message-pile{
+  padding-bottom: 50px;
+  max-height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.message-pile::-webkit-scrollbar {
+  background-color:#fff;
+  width:16px
+}
+
+.message-pile::-webkit-scrollbar-track {
+  background-color:#fff
+}
+.message-pile::-webkit-scrollbar-track:hover {
+  background-color:#f4f4f4
+}
+
+.message-pile::-webkit-scrollbar-thumb {
+  background-color:#babac0;
+  border-radius:16px;
+  border:5px solid #fff
+}
+.message-pile::-webkit-scrollbar-thumb:hover {
+  background-color:#a0a0a5;
+  border:4px solid #f4f4f4
+}
+
+.message-pile::-webkit-scrollbar-button {display:none}
+
+.message{
+  height: 50px;
+  width: calc(100% - 140px);
+  border-radius: 50px;
+  outline: none;
+  border: 1px solid var(--white-shade-two);
+  padding: 0 var(--padding);
+}
+
+.App__form{
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  bottom: 0px;
+  border-top: 1px solid #C4C4C4;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: white;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.App__form input{
+  width: 70%;
+  height: 35px;
+  padding: 10px;
+}
+
+.App__form button{
+  width: 70px;
+  height: 35px;
+  padding: 10px;
+  background: var(--primary-color);
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
